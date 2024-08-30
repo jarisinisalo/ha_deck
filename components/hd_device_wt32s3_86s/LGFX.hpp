@@ -5,12 +5,12 @@
 #include <lgfx/v1/platforms/esp32s3/Bus_RGB.hpp>
 
 #define SPI_FREQUENCY 15000000
-#define TFT_WIDTH 480
-#define TFT_HEIGHT 480
-#define TFT_BCKL 5
-#define TFT_CS 38
-#define TFT_SCLK 45
-#define TFT_MOSI 48
+#define TFT_WIDTH 240
+#define TFT_HEIGHT 320
+#define TFT_BCKL 27
+#define TFT_CS 15
+#define TFT_SCLK 14
+#define TFT_MOSI 13
 #define TFT_DE 40
 #define TFT_VSYNC 41
 #define TFT_HSYNC 42
@@ -33,8 +33,8 @@
 #define TFT_D15 10
 #define BACKLIGHT_FREQUENCY 1000
 #define I2C_TOUCH_FREQUENCY 400000
-#define TOUCH_SDA 15
-#define TOUCH_SCL 6
+#define TOUCH_SDA 33
+#define TOUCH_SCL 32
 #define TOUCH_IRQ 4
 #define TOUCH_RST -1
 
